@@ -90,7 +90,7 @@ int main() {
                 break;
             }
 
-            if (i % 20 == 0) std::cout << "Sent (" << i << ") with ID 0x" << (int)currentID << std::endl;
+            std::cout << "Sent (" << i << ") with ID 0x" << (int)currentID << std::endl;
             Sleep(10);
         }
         Sleep(1000);
